@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MixFlipTool</string>
+    <string name="title_activity_app_scale_settings">缩放比例设置</string>
+    <string name="long_shortcut">缩放比例设置</string>
+    <string name="short_shortcut">缩放设置</string>
+</resources>
