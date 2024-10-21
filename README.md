@@ -20,51 +20,23 @@
 
 ### 外屏添加和使用任意应用
 
-设置
+| 设置 | 文件管理 | 小米应用商店 |
+|-----|-----|-----|
+| <img src="/imgs/settings.jpg" width="100%" height="100%" alt="设置"> | <img src="/imgs/filemanager.jpg" width="100%" height="100%" alt="文件管理"> | <img src="/imgs/xiaomi_market.jpg" width="100%" height="100%" alt="小米应用商店"> |
 
-<img src="/imgs/settings.jpg" width="302" height="348" alt="设置"> 
-
-文件管理
-
-<img src="/imgs/filemanager.jpg" width="302" height="348" alt="文件管理">
-
-小米应用商店
-
-<img src="/imgs/xiaomi_market.jpg" width="302" height="348" alt="小米应用商店">
-
-小米社区
-
-<img src="/imgs/mi_community.jpg" width="302" height="348" alt="小米社区">
-
-酷安
-
-<img src="/imgs/coolapk.jpg" width="302" height="348" alt="酷安">
-
-斗鱼
-
-<img src="/imgs/douyu.jpg" width="302" height="348" alt="斗鱼">
+| 小米社区 | 酷安 | 斗鱼 |
+|-----|-----|-----|
+| <img src="/imgs/mi_community.jpg" width="100%" height="100%" alt="小米社区"> | <img src="/imgs/coolapk.jpg" width="100%" height="100%" alt="酷安"> | <img src="/imgs/douyu.jpg" width="100%" height="100%" alt="斗鱼"> |
 
 ### 自定义应用在外屏的缩放比例，可恢复系统应用在外屏的默认样式
 
-电话（恢复联系人）
+| 电话（恢复联系人） | 相册（恢复发送、编辑等）和短信（字体大小更合适） | 日历（恢复农历、节假日等） |
+|-----|-----|-----|
+| <img src="/imgs/phone.jpg" width="100%" height="100%" alt="电话"> | <img src="/imgs/photo_message.jpg" width="100%" height="100%" alt="相册和短信"> | <img src="/imgs/calendar.jpg" width="100%" height="100%" alt="日历"> |
 
-<img src="/imgs/phone.jpg" width="302" height="348" alt="电话">
-
-相册（恢复发送、编辑等）和短信（字体大小更合适）
-
-<img src="/imgs/photo_message.jpg" width="302" height="348" alt="相册和短信">
-
-日历（恢复农历、节假日等）
-
-<img src="/imgs/calendar.jpg" width="302" height="348" alt="日历">
-
-计算器（恢复各种换算）
-
-<img src="/imgs/calculator.jpg" width="302" height="348" alt="计算器">
-
-录音机（恢复各种功能）
-
-<img src="/imgs/recorder.jpg" width="302" height="348" alt="录音机">
+| 计算器（恢复各种换算） | 录音机（恢复各种功能） |
+|-----|-----|
+| <img src="/imgs/calculator.jpg" width="100%" height="100%" alt="计算器"> | <img src="/imgs/recorder.jpg" width="100%" height="100%" alt="录音机"> |
 
 ## 操作步骤
 
@@ -80,15 +52,16 @@ adb shell grant com.parallelc.mixfliptool android.permission.DUMP
 
 2. 通过[Shizuku](https://github.com/RikkaApps/Shizuku)授权，启动Shizuku后，点击MixFlipTool，会出现弹窗，选择`始终允许`
 
-<img src="/imgs/shizuku.jpg" width="306" height="728" alt="Shizuku">
+<img src="/imgs/shizuku.jpg" width="33%" alt="Shizuku">
 
 ### 一键配置
 
 点击MixFlipTool，就会进行配置，配置成功会有提示，如果出现获取应用信息的弹窗，选择 允许（第二行或第三行）
 
-<img src="/imgs/read_app_list.jpg" width="306" height="728" alt="获取应用信息">
-
-<img src="/imgs/one_click_config.jpg" width="306" height="728" alt="配置成功">
+<p>
+   <img src="/imgs/read_app_list.jpg" width="30%" alt="获取应用信息">
+   <img src="/imgs/one_click_config.jpg" width="30%" alt="配置成功">
+</p>
 
 注意：
 
@@ -114,14 +87,13 @@ adb shell grant com.parallelc.mixfliptool android.permission.DUMP
 
 在内屏长按MixFlipTool，会出现`缩放比例设置`的菜单，打开后会显示当前的设置
 
-<img src="/imgs/scale_setting_menu.jpg" width="306" height="728" alt="缩放比例设置-菜单">
-
-<img src="/imgs/scale_setting.jpg" width="306" height="728" alt="缩放比例设置">
-
 默认对系统应用进行了一些设置，用于恢复系统应用在外屏的默认样式，可点击应用进行调整设置，设置完成后需要再回到桌面点击MixFlipTool，进行一键配置
 
-<img src="/imgs/scale_setting_app.jpg" width="306" height="728" alt="缩放比例设置-应用">
-
+<p>
+   <img src="/imgs/scale_setting_menu.jpg" width="30%" alt="缩放比例设置-菜单">
+   <img src="/imgs/scale_setting.jpg" width="30%" alt="缩放比例设置">
+   <img src="/imgs/scale_setting_app.jpg" width="30%" alt="缩放比例设置-应用">
+</p>
 
 ## 常见问题
 
