@@ -47,7 +47,7 @@
 1. 通过ADB授权，手机开启USB调试和USB调试（安全设置）后，连接电脑，命令行里执行
 
 ```
-adb shell grant com.parallelc.mixfliptool android.permission.DUMP 
+adb shell pm grant com.parallelc.mixfliptool android.permission.DUMP 
 ```
 
 2. 通过[Shizuku](https://github.com/RikkaApps/Shizuku)授权，启动Shizuku后，点击MixFlipTool，会出现弹窗，选择`始终允许`
